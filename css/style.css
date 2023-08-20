@@ -1,6 +1,13 @@
+/* Le code ici est celui que j'ai rajouté, celui donné est bon ?*/
+
+header {
+    padding: 30px 50px;
+}
+
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+    margin: 0;
 }
 
 :root {
