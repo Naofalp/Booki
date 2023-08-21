@@ -1,7 +1,5 @@
 /* Le code ici est celui que j'ai rajouté, celui donné est bon ?*/
 
-header {
-}
 
 nav {
     display: flex;
@@ -39,7 +37,7 @@ a {
     justify-content: flex-start; 
     align-items: flex-start; 
     gap: 35px; 
-    display: inline-flex
+    display: inline-flex 
 }
 
 h1 {
@@ -55,6 +53,20 @@ font-weight: 700;
     justify-content: flex-start; 
     align-items: flex-start; 
     gap: 8px; 
+}
+
+.boite-icone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px; height: 49px;
+    background: #F2F2F2;
+    border: 0,5px solid black ;
+    border-top-left-radius: 15px; 
+    border-bottom-left-radius: 15px;
+
+}
+.fa-location-dot{
 }
 
 
