@@ -1,6 +1,6 @@
 /* Le code ici est celui que j'ai rajouté, celui donné est bon ?*/
 
-
+/**** HEADER ****/
 nav {
     display: flex;
     align-items: center;
@@ -8,19 +8,21 @@ nav {
 }
 
 header img {
-    width: 61.09px; height: 19px;
-    padding-top: 30px; padding-bottom: 30px;
+    width: 61.09px;
+    height: 19px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-.lienheader{
-    flex-direction: row; 
-    justify-content: space-between; 
-    align-items: center; 
-    gap: 68px; 
-    display: flex; 
+.lienheader {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 68px;
+    display: flex;
 }
 
-.traitbleu{
+.traitbleu {
     color: #0065FC;
     border-top: 2px solid#0065FC;
 }
@@ -30,51 +32,57 @@ a {
     text-decoration: none;
 }
 
-.infogroup{
-    width: 100%; 
-    height: 100%; 
-    flex-direction: column; 
-    justify-content: flex-start; 
-    align-items: flex-start; 
-    gap: 35px; 
-    display: inline-flex 
+/**** Infogroup***/
+
+.infogroup {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 35px;
+    display: inline-flex;
+    margin-top: 30px;
+    margin-bottom: 35px;
 }
 
 h1 {
     color: black;
-font-size: 22px;
-font-family: Raleway;
-font-weight: 700;
+    font-size: 22px;
+    font-family: Raleway;
+    font-weight: 700;
 }
 
-.h1{
+.h1 {
     display: flex;
-    flex-direction: column; 
-    justify-content: flex-start; 
-    align-items: flex-start; 
-    gap: 8px; 
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
 }
 
 .searchbar {
     display: flex;
-    flex-direction: row; 
-    justify-content: flex-start; 
-    align-items: flex-start; 
-    gap: 24px; /*Pas de gap en responsive + bouton devient une icon loupe*/
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    /*Pas de gap en responsive + bouton devient une icon loupe*/
     height: 49px;
     width: 377px;
-    border: 1px solid #F2F2F2 ;
+    border: 1px solid #F2F2F2;
     border-radius: 21px;
-    
+
 }
 
-.boite-icone{
+.boite-icone {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50px; height: 49px;
+    width: 50px;
+    height: 49px;
     background: #F2F2F2;
-    border-top-left-radius: 15px; 
+    border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
 
@@ -83,27 +91,63 @@ form {
     flex-direction: row;
     margin: auto;
     justify-content: space-between;
-    gap:24px
+    gap: 24px
 }
-input{
-    font-weight: bold;
+
+input {
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 700;
     height: 49px;
     width: 140px;
     border: none;
-    outline: none; /* Supprime le contour lorsque l'élément est en focus */
+    outline: none;
+    /* Supprime le contour lorsque l'élément est en focus */
     /*supprimer la petite croix*/
     appearance: none;
     -webkit-appearance: none;
 }
 
-.bouton{
-    border-top-right-radius: 15px; border-bottom-right-radius: 15px;
+.bouton {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
     background-color: #0065FC;
     color: white;
     cursor: pointer;
 }
 
+.filtres {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    height: 50px;
+}
 
+.filtres div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    height: 50px;
+    padding-left: 19px;
+    padding-right: 19px;
+    border-radius: 30px;
+    border: 2px #D9D9D9 solid;
+    color: black;
+    font-size: 17px;
+    font-family: Raleway;
+    font-weight: 700;
+}
+
+.filtres i,
+.fa-location-dot {
+    font-size: 20px;
+}
+
+.filtres-hover:hover {
+    background-color: #DEEBFF;
+}
 
 
 /****** General ***********/
@@ -112,6 +156,16 @@ input{
     margin: 0;
     font-size: 16px;
 }
+
+.sous-titres {
+    /*Rajouté moi même*/
+    color: black;
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 700;
+    word-wrap: break-word
+}
+
 
 :root {
     --main-color: #0065FC;
