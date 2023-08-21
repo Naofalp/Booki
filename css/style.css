@@ -55,19 +55,55 @@ font-weight: 700;
     gap: 8px; 
 }
 
+.searchbar {
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 24px; /*Pas de gap en responsive + bouton devient une icon loupe*/
+    height: 49px;
+    width: 377px;
+    border: 1px solid #F2F2F2 ;
+    border-radius: 21px;
+    
+}
+
 .boite-icone{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50px; height: 49px;
     background: #F2F2F2;
-    border: 0,5px solid black ;
     border-top-left-radius: 15px; 
     border-bottom-left-radius: 15px;
+}
 
+form {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+    gap:24px
 }
-.fa-location-dot{
+input{
+    font-weight: bold;
+    height: 49px;
+    width: 140px;
+    border: none;
+    outline: none; /* Supprime le contour lorsque l'élément est en focus */
+    /*supprimer la petite croix*/
+    appearance: none;
+    -webkit-appearance: none;
 }
+
+.bouton{
+    border-top-right-radius: 15px; border-bottom-right-radius: 15px;
+    background-color: #0065FC;
+    color: white;
+    cursor: pointer;
+}
+
+
 
 
 /****** General ***********/
