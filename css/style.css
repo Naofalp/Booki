@@ -25,6 +25,7 @@ header img {
 .traitbleu {
     color: #0065FC;
     border-top: 2px solid#0065FC;
+    padding-top: 10px;
 }
 
 a {
@@ -103,7 +104,7 @@ input {
     border: none;
     outline: none;
     /* Supprime le contour lorsque l'élément est en focus */
-    /*supprimer la petite croix*/
+    /*supprimer la petite croix askip */
     appearance: none;
     -webkit-appearance: none;
 }
@@ -149,6 +150,13 @@ input {
     background-color: #DEEBFF;
 }
 
+.info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
 
 /****** General ***********/
 * {
@@ -158,7 +166,7 @@ input {
 }
 
 .sous-titres {
-    /*Rajouté moi même*/
+    /*Rajouté moi même , pour filtres, afficher plus et le footer*/
     color: black;
     font-size: 18px;
     font-family: Raleway;
