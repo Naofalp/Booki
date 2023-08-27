@@ -20,12 +20,13 @@ header img {
     align-items: center;
     gap: 68px;
     display: flex;
+    padding-bottom: 30px;
 }
 
 .traitbleu {
     color: #0065FC;
     border-top: 2px solid#0065FC;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 a {
@@ -86,6 +87,9 @@ h1 {
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
+.fa-location-dot {
+    color: black; /* POURQUOI CA MARCHE PAS */
+}
 
 form {
     display: flex;
@@ -115,6 +119,13 @@ input {
     background-color: #0065FC;
     color: white;
     cursor: pointer;
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 700;
+    height: 49px;
+    width: 140px;
+    border: none;
+    outline: none;
 }
 
 .filtres {
@@ -155,8 +166,22 @@ input {
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
+    height: 25px;
 }
 
+.info div{
+    border: 1px solid #D9D9D9;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.fa-info {
+    font-size: 12px;
+}
 
 /****** General ***********/
 * {
@@ -176,13 +201,12 @@ input {
 
 
 :root {
-    --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
 }
 
-.fa-solid {
-    color: var(--main-color);
+.iconebleue {
+    color: #0065FC; /* changé var main color de :root en color simple*/
 }
 
 body {
