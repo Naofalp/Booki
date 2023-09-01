@@ -216,7 +216,7 @@ footer div ul {
     font-size: 16px;
 }
 
-.sous-titres, h4 {
+h4 {
     /*Rajouté moi même , pour filtres, afficher plus et le footer*/
     color: black;
     font-size: 18px;
