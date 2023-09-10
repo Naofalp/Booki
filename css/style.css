@@ -190,7 +190,6 @@ input {
     /* Supprime le contour lorsque l'élément est en focus */
     /*supprimer la petite croix askip */
     appearance: none;
-    -webkit-appearance: none;
 }
 
 .bouton {
