@@ -475,12 +475,17 @@ footer div ul {
 }
 
 
-                                        /* Le code ci-dessous correspond à la version responsive uniquement */
+/* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
 
-                                        /* Medium devices (tablets, less/equal than 1024px) */
+/* Medium devices (tablets, less/equal than 1024px) */
 @media (min-width: 768px) and (max-width: 1024px) {
+
+    .couple-filtre div {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
     .hebergements-and-populaires {
         flex-direction: column-reverse;
     }
@@ -514,7 +519,8 @@ footer div ul {
 
 }
 
-                                            /* Small devices (phones, less than 768px) */
+/* Small devices (phones, less than 768px) */
+
 @media screen and (max-width: 767.98px) {
     .main-container {
         padding: 0px;
@@ -573,7 +579,7 @@ footer div ul {
     .searchbar {
         width: 100%;
     }
-    
+
     .bouton2 {
         display: flex;
         justify-content: center;
@@ -591,7 +597,7 @@ footer div ul {
         outline: none;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
     }
-    
+
     .bouton {
         display: none;
     }
@@ -621,6 +627,7 @@ footer div ul {
 
     .couple-filtre div {
         width: 100%;
+        padding-right: 15px;
     }
 
     .info {
@@ -757,7 +764,7 @@ footer div ul {
         flex-direction: column;
         padding: 30px;
         gap: 15px;
-        width: 100%;
+        width: auto;
     }
 
     footer div ul {
@@ -769,4 +776,11 @@ footer div ul {
         padding-left: 0px;
     }
 
+}
+
+@media screen and (max-width: 340px) {
+    .infogroup {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
