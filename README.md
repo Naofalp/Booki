@@ -1,4 +1,4 @@
-![Logo de Booki](images/logo/Booki.png)
+<img src="images/logo/Booki.png" alt="Logo de Booki" width="200" height="100">
 
 # Booki
 
