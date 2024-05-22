@@ -1,6 +1,4 @@
-![Logo de Booki](images/logo/Booki.png)
-
-# Booki
+# Booki ![Logo de Booki](images/logo/Booki.png)
 
 Créez la page d'accueil d'une agence de voyage avec HTML & CSS.
 
