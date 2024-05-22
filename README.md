@@ -32,6 +32,52 @@ L’entreprise souhaite développer un site Internet qui permette aux usagers de
 - Les filtres doivent changer de couleur au survol de la souris.
 - Les filtres ne doivent pas être fonctionnels - il s’agit juste d’une première version pour valider l’interface.
 
+
+
+## Spécifications techniques
+
+### Breakpoints
+- Nous avons convenu avec le designer UI d’utiliser 1024 px et 768 px :
+  - >1024 px pour les écrans d’ordinateurs ;
+  - >=768 px pour les tablettes ;
+  - Tout ce qui est en dessous de 768 px pour les téléphones portables.
+
+### Largeur min - max
+- Pour éviter d’étirer la page web sur la largeur de façon excessive, il va falloir déterminer une largeur maximum de 1440 px. Au-delà, une marge blanche doit apparaître sur les côtés et le contenu doit se limiter à 1440 px de large.
+- La largeur minimum est fixée à 320 px. En-deçà de cette largeur, le comportement n’est pas garanti.
+
+### Desktop first
+- Il faut d’abord réaliser l’intégration pour les ordinateurs (autrement dit, en desktop first), puis les tablettes et enfin les téléphones.
+
+### Bibliothèque d’icônes
+- Les icônes proviennent de la bibliothèque Font Awesome.
+
+### Couleurs
+- Les couleurs de la charte sont le bleu (#0065FC), le bleu clair (#DEEBFF) et le gris pour le fond (#F2F2F2).
+
+### Police
+- La police du site est Raleway.
+
+### Balises sémantiques
+- Il est important d’utiliser les balises sémantiques.
+
+### Validité du code
+- Aucun IDE ou éditeur de code particulier n’est imposé pour le développement.
+- Le code doit être valide aux validateurs W3C HTML et CSS.
+- Le code HTML ne doit pas contenir de propriété CSS.
+- Lors du passage du desktop au mobile et à la tablette, ne pas dupliquer le code HTML (exception faite dans le formulaire avec le mot “Rechercher” et l’icône de la loupe).
+- Privilégier l’utilisation des classes CSS pour cibler un élément, plutôt que d’utiliser le nom de l’élément lui-même.
+- Ne pas dupliquer des classes CSS inutilement.
+
+### Compatibilité navigateurs
+- La maquette doit être compatible avec les dernières versions de Google Chrome et de Mozilla Firefox. Il faudra tester la page web sur ces deux navigateurs.
+
+### Restrictions
+- Aucun framework CSS (type BootStrap ou Tailwind CSS) ou préprocesseur CSS (type Sass ou Less) ne doit être utilisé.
+- Aucun autre langage ne doit être utilisé (comme JavaScript, par exemple).
+
+
+
 ## English
 
 ## Description
@@ -59,3 +105,48 @@ The company wants to develop a website that allows users to find accommodations 
 - Accommodations can be filtered by themes, such as budget or ambiance.
 - Filters should change color when hovered over with the mouse.
 - The filters do not need to be functional - this is just an initial version to validate the interface.
+
+
+
+## Technical Specifications
+
+### Breakpoints
+- We agreed with the UI designer to use 1024 px and 768 px:
+  - >1024 px for computer screens;
+  - >=768 px for tablets;
+  - Anything below 768 px for mobile phones.
+
+### Min - Max Width
+- To avoid excessive stretching of the web page, a maximum width of 1440 px must be set. Beyond this, a white margin should appear on the sides and the content should be limited to 1440 px wide.
+- The minimum width is set to 320 px. Below this width, the behavior is not guaranteed.
+
+### Desktop First
+- Integration should be done first for computers (desktop first), then tablets, and finally phones.
+
+### Icon Library
+- Icons are from the Font Awesome library.
+
+### Colors
+- The colors of the design are blue (#0065FC), light blue (#DEEBFF), and gray for the background (#F2F2F2).
+
+### Font
+- The site font is Raleway.
+
+### Semantic Tags
+- It is important to use semantic tags.
+
+### Code Validity
+- No specific IDE or code editor is required for development.
+- The code must be valid with W3C HTML and CSS validators.
+- HTML code must not contain CSS properties.
+- When transitioning from desktop to mobile and tablet, do not duplicate HTML code (exception made in the form with the word “Search” and the magnifying glass icon).
+- Prefer the use of CSS classes to target an element, rather than using the element’s name itself.
+- Do not duplicate CSS classes unnecessarily.
+
+### Browser Compatibility
+- The design must be compatible with the latest versions of Google Chrome and Mozilla Firefox. The web page should be tested on these two browsers.
+
+### Restrictions
+- No CSS frameworks (such as Bootstrap or Tailwind CSS) or CSS preprocessors (such as Sass or Less) should be used.
+- No other language should be used (such as JavaScript, for example).
+
