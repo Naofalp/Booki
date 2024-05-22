@@ -13,6 +13,11 @@ Je débute mon alternance en tant que développeur web au sein de la start-up Bo
 
 L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Je suis chargé d'intégrer l'interface du site avec du code HTML et CSS. Pour cela, je travaille en étroite collaboration avec Sarah, la CTO, et Loïc, l’UI designer.
 
+## Table des matières
+
+- [Spécifications fonctionnelles](#spécifications-fonctionnelles)
+- [Spécifications techniques](#spécifications-techniques)
+
 ## Spécifications fonctionnelles
 
 ### Fonction recherche
@@ -85,6 +90,11 @@ L’entreprise souhaite développer un site Internet qui permette aux usagers de
 I am starting my alternance as a web developer at the start-up Booki.
 
 The company wants to develop a website that allows users to find accommodations and activities in the city of their choice. I am responsible for integrating the user interface using HTML and CSS. For this, I work closely with Sarah, the CTO, and Loïc, the UI designer.
+
+## Table of contents
+
+- [Functional Specifications](#functional-specifications)
+- [Technical Specifications](#technical-specifications)
 
 ## Functional Specifications
 
