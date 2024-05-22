@@ -15,8 +15,6 @@ L’entreprise souhaite développer un site Internet qui permette aux usagers de
 
 ## Spécifications fonctionnelles
 
-## Fonctionnalités
-
 ### Fonction recherche
 - Les usagers pourront rechercher des hébergements dans la ville de leur choix.
 - Le champ de recherche est un champ de saisie, le texte doit donc pouvoir être édité par l’utilisateur.
@@ -33,3 +31,31 @@ L’entreprise souhaite développer un site Internet qui permette aux usagers de
 - Les hébergements peuvent être filtrés par thématique, comme le budget ou l’ambiance.
 - Les filtres doivent changer de couleur au survol de la souris.
 - Les filtres ne doivent pas être fonctionnels - il s’agit juste d’une première version pour valider l’interface.
+
+## English
+
+## Description
+
+I am starting my alternance as a web developer at the start-up Booki.
+
+The company wants to develop a website that allows users to find accommodations and activities in the city of their choice. I am responsible for integrating the user interface using HTML and CSS. For this, I work closely with Sarah, the CTO, and Loïc, the UI designer.
+
+## Functional Specifications
+
+
+### Search Function
+- Users will be able to search for accommodations in the city of their choice.
+- The search field is an input field, so the text must be editable by the user.
+- This field must be wrapped in a form. The search feature does not need to be functional - this is an initial version to validate the interface.
+
+### Links “Accommodations” and “Activities”
+- The texts “Accommodations” and “Activities” in the header are links. They should lead to the sections “Accommodations in Marseille” and “Activities in Marseille” respectively.
+
+### Accommodation and Activity Cards
+- Each accommodation or activity card should be clickable in its entirety (not just the title).
+- For now, the links are empty. You can use an attribute `href="#"` to simulate the presence of a link.
+
+### Search Filters
+- Accommodations can be filtered by themes, such as budget or ambiance.
+- Filters should change color when hovered over with the mouse.
+- The filters do not need to be functional - this is just an initial version to validate the interface.
