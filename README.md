@@ -1,4 +1,4 @@
-<img src="images/logo/Booki.png" alt="Logo de Booki" width="200" height="100">
+<img src="images/logo/Booki.png" alt="Logo de Booki" width="200">
 
 # Booki
 
