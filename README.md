@@ -1,5 +1,7 @@
 <img src="images/logo/Booki.png" alt="Logo de Booki" width="100">
 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
 # Booki
 
 Ce projet vise à créer une interface utilisateur pour rechercher des hébergements et des activités. Cette version initiale se concentre sur la validation de l'interface et ne comporte pas de fonctionnalité opérationnelle.
